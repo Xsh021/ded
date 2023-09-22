@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".BandioActivity"
+            android:exported="false" />
+        <activity
             android:name=".tadecologinActivity"
             android:exported="false" />
         <activity
