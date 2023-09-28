@@ -8,27 +8,48 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cameraphoto"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="115dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginRight="110dp"
-        android:layout_marginBottom="100dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="Bandio"
-        android:textAllCaps="true"
-        android:textSize="50dp"
-        android:textStyle="bold" />
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/baseline_person"
+        android:drawablePadding="10dp"
+        android:hint="Name"
+        android:inputType="textEmailAddress"
+        android:maxLength="80"
+        android:padding="20sp" />
 
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
+        android:layout_margin="10dp"
         android:drawableLeft="@drawable/baseline_person"
         android:drawablePadding="10dp"
-        android:hint="Username"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="80"
+        android:padding="20sp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/baseline_person"
+        android:drawablePadding="10dp"
+        android:hint="Password"
         android:inputType="textEmailAddress"
         android:maxLength="80"
         android:padding="20sp" />
@@ -37,7 +58,7 @@
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
+        android:layout_margin="10dp"
         android:drawableLeft="@drawable/baseline_lock"
         android:drawablePadding="10dp"
         android:hint="Password"
@@ -48,11 +69,11 @@
     <Button
         android:id="@+id/btnEntrar"
         android:layout_width="190sp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:layout_marginLeft="110dp"
         android:layout_marginTop="30dp"
+        android:layout_marginRight="110dp"
         android:padding="10dp"
         android:text="Sign In"
         android:textAllCaps="true"
@@ -64,10 +85,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:text="Don't have a password yet? Sign Up."
         android:layout_marginTop="20dp"
-        />
-
+        android:text="Don't have a password yet? Sign Up." />
 
 
 </LinearLayout>
