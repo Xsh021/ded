@@ -43,7 +43,7 @@
         android:padding="20sp" />
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -55,13 +55,13 @@
         android:padding="20sp" />
 
     <EditText
-        android:id="@+id/edtSenha"
+        android:id="@+id/edtniver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:drawableLeft="@drawable/baseline_lock"
         android:drawablePadding="10dp"
-        android:hint="Password"
+        android:hint="Birthday"
         android:inputType="textPassword"
         android:maxLength="80"
         android:padding="20sp" />
