@@ -13,7 +13,7 @@
         android:layout_width="300dp"
         android:layout_height="140dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:scaleType="centerCrop"
         android:src="@drawable/Moviens" />
 
@@ -21,36 +21,34 @@
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
+        android:layout_margin="10sp"
         android:drawableLeft="@drawable/baseline_person"
         android:drawablePadding="10dp"
         android:hint="User Name"
         android:inputType="textEmailAddress"
         android:maxLength="80"
-        android:padding="20sp" />
+        android:padding="20sp"
+        android:textColorHint="@color/white"/>
 
     <EditText
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
+        android:layout_margin="10sp"
         android:drawableLeft="@drawable/baseline_lock"
         android:drawablePadding="10dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:maxLength="80"
-        android:padding="20sp" />
+        android:padding="20sp"
+        android:textColorHint="@color/white"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:orientation="vertical" />
+
 
     <Button
         android:id="@+id/btnEntrar"
         android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_height="30dp"
         android:layout_gravity="center"
         android:layout_margin="2dp"
         android:layout_weight="1"
@@ -62,19 +60,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:text="or" />
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="or"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/btnSair"
         android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:padding="10dp"
-
+        android:padding="5dp"
         android:text="Sign in with Facebook"
         android:textAllCaps="true" />
 
@@ -83,5 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Don't have a password yet? Sign Up." />
+        android:text="Don't have a password yet? Sign Up."
+        android:textColor="@color/white"
+        android:layout_marginTop="30"/>
 </LinearLayout>
